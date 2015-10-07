@@ -7,4 +7,4 @@ There is a lot here that could use clean up and fixing, but it basically works.
 I removed the dbs/users.db which should be an sqlite db, you might need to create it by hand to begin. I will try to put the schema somewhere
 
 ## You should get charts
-![example chart](https://raw.github.com/martingehrke/basal-temperature-tracking-website/blob/master/charts/example1.png)
+![example chart](https://raw.githubusercontent.com/martingehrke/basal-temperature-tracking-website/master/charts/example1.png)
