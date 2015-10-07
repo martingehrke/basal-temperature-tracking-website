@@ -1,0 +1,45 @@
+* {	margin: 0; padding: 0; }
+
+body {
+	padding: 20px; 
+}
+
+h2{margin-top:0px;margin-bottom:0px;} 
+
+table th { border: 1px solid; }
+
+#day1,#day2,#day3,#day4,#day5,#day6,#day7,#day8,#day9,#day10,#day11,#day12,#day13,#day14,#day15,#day16,#day17,#day18,#day19,#day20,#day21,#day22,#day23,#day24,#day25,#day26,#day27,#day28,#day29,#day30,#day31,#day32,#day33,#day34,#day35,#day36 {
+	list-style: none;
+	border-right: solid 1px black;
+	border-left: solid 1px black;
+	margin: -1.5px;
+	padding: 3px;
+}
+
+#day1 li,#day2 li,#day3 li,#day4 li,#day5 li,#day6 li,#day7 li,#day8 li,#day9 li,#day10 li,#day11 li,#day12 li,#day13 li,#day14 li,#day15 li,#day16 li,#day17 li,#day18 li,#day19 li,#day20 li,#day21 li,#day22 li,#day23 li,#day24 li,#day25 li,#day26 li,#day27 li,#day28 li,#day29 li,#day30 li,#day31 li,#day32 li,#day33 li,#day34 li,#day35 li,#day36 li { 
+	font-size: 11pt;  
+	padding: 1.5px;
+	text-align: center;
+	cursor: default;
+}
+
+#day1 .ui-selected,#day2 .ui-selected,#day3 .ui-selected,#day4 .ui-selected,#day5 .ui-selected,#day6 .ui-selected,#day7 .ui-selected,#day8 .ui-selected,#day9 .ui-selected,#day10 .ui-selected,#day11 .ui-selected,#day12 .ui-selected,#day13 .ui-selected,#day14 .ui-selected,#day15 .ui-selected,#day16 .ui-selected,#day17 .ui-selected,#day18 .ui-selected,#day19 .ui-selected,#day20 .ui-selected,#day21 .ui-selected,#day22 .ui-selected,#day23 .ui-selected,#day24 .ui-selected,#day25 .ui-selected,#day26 .ui-selected,#day27 .ui-selected,#day28 .ui-selected,#day29 .ui-selected,#day30 .ui-selected,#day31 .ui-selected,#day32 .ui-selected,#day33 .ui-selected,#day34 .ui-selected,#day35 .ui-selected,#day36 .ui-selected {
+	background: #F39814;
+	color: white; 
+	padding: 1.5px;
+	/*font-weight: bold;*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+}
+
+.cf, .inter {
+	text-align: center;
+	cursor: default;
+	border: 1px solid;
+}
+
+.notes {
+	height: 80px;
+	border: 1px solid;
+}	
