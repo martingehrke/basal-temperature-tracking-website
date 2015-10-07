@@ -16,14 +16,14 @@
 	if($user->logged_in()):
 ?>
 		<p>You are logged in as <?php echo $_SESSION['user']['name']; ?><br/>
-		<a href="/basil/logout">Log out</a><br/>
-		<a href="/basil/change">Change your password</a><br/>
-		<a href="/basil/basil.php">Go to Current Poll</a></p>
+		<a href="/basal/logout">Log out</a><br/>
+		<a href="/basal/change">Change your password</a><br/>
+		<a href="/basal/basal.php">Go to Current Poll</a></p>
 <?php
 	endif;
 	if(!$user->logged_in()):
 ?>
-		<p>You are not logged in. <a href="/basil/login">Log in now</a> or <a href="/basil/signup">Sign up</a></p>
+		<p>You are not logged in. <a href="/basal/login">Log in now</a> or <a href="/basal/signup">Sign up</a></p>
 <?php
 	endif;
 ?>

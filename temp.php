@@ -100,7 +100,7 @@ $(document).ready(function() {
 	   return (int)($f1*10) == (int)($f2*10);
 	}
 
-	$db = new PDO('sqlite:'.dirname(dirname(__FILE__)).'/basil/dbs/users.db');
+	$db = new PDO('sqlite:'.dirname(dirname(__FILE__)).'/basal/dbs/users.db');
 	$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 	$USER_ID = $_SESSION['user']['id'];

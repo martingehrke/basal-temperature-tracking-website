@@ -1,7 +1,7 @@
 <?php include('user.php'); $user->require_login(); ?>
 <?php
 
-$db = new PDO('sqlite:'.dirname(dirname(__FILE__)).'/basil/dbs/users.db');
+$db = new PDO('sqlite:'.dirname(dirname(__FILE__)).'/basal/dbs/users.db');
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 $USER_ID = $_SESSION['user']['id'];

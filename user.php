@@ -35,17 +35,17 @@ class user {
 			'salt'=>'apoisner8p234jkh23d(*&#ljkhn23l54723,l3&^#' // random characters for salting passwords & sessions
 		),
 		'pages'=>array(
-			'login'=>'./basil/login', // login page
-			'signup'=>'./basil/signup', // registration page
-			'manage'=>'./basil/manage', // change email page
-			'change'=>'./basil/recover-password', // change password page
-			'activate'=>'./basil/activate' // activation page
+			'login'=>'./basal/login', // login page
+			'signup'=>'./basal/signup', // registration page
+			'manage'=>'./basal/manage', // change email page
+			'change'=>'./basal/recover-password', // change password page
+			'activate'=>'./basal/activate' // activation page
 		),
 		'site'=>array(
 			'admin'=>'Martin Gehrke', // your name
 			'email'=>'martin.gehrke@gmail.com', // address to send new account emails from
 			'name'=>'Basil Temperature Tracking', // site name to display in emails
-			'cookie'=>'basil_tracking' // cookie name
+			'cookie'=>'basal_tracking' // cookie name
 		)
 	);
 
@@ -167,7 +167,7 @@ class user {
 		#$_SESSION['max-age'] = 24 * 60 * 60;
                 #$_SESSION['expires'] = 24 * 60 * 60;
 
-		$redirect=(isset($_SESSION['redirect'])?$_SESSION['redirect']:'/basil/temp.php');
+		$redirect=(isset($_SESSION['redirect'])?$_SESSION['redirect']:'/basal/temp.php');
 		unset($_SESSION['redirect']);
 		$this->do_action('login',array($result['id'],$result['name'],$result['email']));
 
@@ -192,7 +192,7 @@ class user {
 	}
 
 	protected function sqlite(){ // returns the database object
-		$t = new PDO('sqlite:'.dirname(dirname(__FILE__)).'/basil/dbs/users.db');
+		$t = new PDO('sqlite:'.dirname(dirname(__FILE__)).'/basal/dbs/users.db');
 		$t->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 		return $t;
 	}
