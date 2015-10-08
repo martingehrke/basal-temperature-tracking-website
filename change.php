@@ -7,7 +7,7 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<meta http-equiv="Content-Language" content="en-us" />
 	<title>Change Password</title>
-	<link rel="stylesheet" type="text/css" href="http://gehrkecreek.com/basal/css/login.css" />
+	<link rel="stylesheet" type="text/css" href="./css/login.css" />
 </head>
 
 <body>
